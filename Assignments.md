@@ -165,6 +165,7 @@ Consider the following code:
     items = [
         {"id": 1, "desc": "clock", "price": 1.00},
         {"id": 2, "desc": "socks", "price": 2.00},
+        
         {"id": 3, "desc": "razor", "price": 3.00},
     ]
     tm = TaxMan(items, "10%")
